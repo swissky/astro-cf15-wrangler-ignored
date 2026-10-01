@@ -1,0 +1,4 @@
+---
+import { env } from "cloudflare:workers";
+---
+<p>{env.GREETING} {typeof env.DB}</p>
